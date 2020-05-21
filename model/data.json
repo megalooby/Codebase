@@ -1,0 +1,61 @@
+{
+    "pageTextData": [
+    {
+        "title": "Faded pastel memory",
+        "subTitle": "Kitchen items",
+        "description": "This website shows a variety of cute kitchen items in a pastel color"
+    },
+    {
+        "title": "Kitchen shovel",
+        "subTitle": "Very useful",
+        "description": "This is a kitchen shovel, mainly used in stir frying stuffs or flipping stuffs"
+    },
+    {
+        "title": "Flower bowl",
+        "subTitle": "Very flowerly",
+        "description": "This is a bowl in a flower shape, very cute and popular with wife customers, but fairly hard to wash because of its shape"
+    },
+    {
+        "title": "Heart sauce pan",
+        "subTitle": "Deep inside your hear",
+        "description": "This is a sauce pan with a cover in a heart shape, looks pretty nice but it does not have a pair of handle making it extremely hard to use"
+    },
+    {
+        "title": "Kitchen knife",
+        "subTitle": "Top tier shapeness",
+        "description": "This is a kitchen knife, people uses it to chop food"
+    },
+    {
+        "x3dModelTitle": "Heart sauce pan",
+        "description": "The 3d model of the heart sauce pan"
+    },
+    {
+        "x3dModelTitle": "Flower bowl",
+        "description": "The 3d model of the flower bowl"
+    },
+    {
+        "x3dModelTitle": "Kitchen knife",
+        "description": "The 3d model of the kitchen knife"
+    },
+    {
+        "x3dModelTitle": "Kitchen shovel",
+        "description": "The 3d model of the kitchen shovel"
+    },
+    {
+        "galleryTitle": "Image gallery",
+        "galleryDescription": "The images are generated in 3dsmax"
+    },
+    {
+        "galleryTitle": "Image gallery",
+        "galleryDescription": "The images are generated in 3dsmax"
+    },
+    {
+        "galleryTitle": "Image gallery",
+        "galleryDescription": "The images are generated in 3dsmax"
+    },
+    {
+        "galleryTitle": "Image gallery",
+        "galleryDescription": "The images are generated in 3dsmax"
+    }
+]
+}

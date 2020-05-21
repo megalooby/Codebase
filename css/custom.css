@@ -1,0 +1,347 @@
+body {
+   background-color: #fbe8e7;
+}
+
+.main_contents {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#main_image {
+   background-image: url(../assets/images/normal/bg.jpg); 
+   background-repeat: no-repeat;
+   background-position: center;
+	background-size: cover;
+	height: 620px;
+	padding: 50px;
+}
+#main_text {
+	text-align: center;
+	max-width: 500px;
+	left: 20%;
+	top: 40%;
+   background-color: rgba(252,245,238,0.8);
+   padding: 10px;
+   border-radius: 10px;
+	font-size: 30px;
+}
+#main_text h2 {
+   color: rgba(0,102,153,1);
+   font-size: 20px;
+   margin-top: 0px;
+   margin-bottom: 5px;
+}
+#main_text h3 {
+   font-size: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#main_text p {
+   font-size: 12px;
+   margin: 0px;
+   line-height: 1.2;
+} 
+
+.card {
+   border: 1px solid rgba(0,0,0,.125);
+   /* border-radius: .25rem;*/
+   margin-top: 80px;
+   margin-bottom: 10px;
+   background-color: rgba(182, 231, 243, 1.0);
+}
+
+/* CSS rule to style the mobile logo */
+.logo {
+   margin-top: 3px;
+   }
+   
+   .logo h1 {
+   font-family: marline; /* You don't need to repeat this for each media query as it is propagated */
+   font-size: 31px;
+   margin: 0;
+   margin-top: -10px;
+   margin-bottom: -15px;
+   float: left;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 2px;
+   }
+   
+   .logo h2 {
+   font-family: marline;
+   font-size: 31px;
+   margin-top: -6px;
+   margin-bottom: -15px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 3px;
+   float: left;
+   }
+   
+   .logo p {
+   font-family: janda_curlygirl_pop;
+   font-size: 10px; /* You may have to tweak this to get a good fit */
+   margin-top: 30px; /* You may have to tweak this to get a good fit */
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 3px;
+   }
+   
+   /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! 
+*/
+
+/* CSS rule to overwrite the navbar background and border color — again, helps to stop your site looking like a Bootstrap clone! 
+*/
+.navbar_pastel_kitchen {
+   background-color: #fd94a9; /* Set navbar background color */
+   /* border-color: yellow; Sets the navbar border color */
+   /* border-style: solid; */
+   border-width: 0px;
+  min-height: 70px;
+	z-index: 50;
+	width: 100%;
+	top: 0;
+}
+
+/* CSS rule to overwrite the navbar-brand font color
+*/
+.navbar_pastel_kitchen .navbar-brand {
+   color: rgb(245, 235, 235);
+}
+   
+/* CSS rule to overwrite the navbar-brand font hover color
+*/
+.navbar_pastel_kitchen .navbar-brand:hover {
+   color: #df244a;
+}
+
+.navbar_footer {
+   background-color: #dbc4f5; /* Set navbar background color */
+   /* border-color: yellow; Sets the navbar border color */
+   /* border-style: solid; */
+   border-width: 0px;
+  min-height: 70px;
+	position: fixed;
+	z-index: 50;
+	width: 100%;
+}
+
+/* CSS rule to overwrite the navbar-brand font color
+*/
+.navbar_footer .navbar-brand {
+   color: rgb(245, 235, 235);
+}
+   
+/* CSS rule to overwrite the navbar-brand font hover color
+*/
+.navbar_footer .navbar-brand:hover {
+   color: #df244a;
+}
+/* Method to declare your own fonts */
+@font-face {
+	font-family: janda_curlygirl_chunky;
+	src: url(../assets/fonts/janda_curlygirl/JandaCurlygirlChunky.ttf);
+}
+
+@font-face {
+	font-family: janda_curlygirl_pop;
+	src: url(../assets/fonts/janda_curlygirl/JandaCurlygirlPop.ttf);
+}
+
+@font-face {
+	font-family: janda_curlygirl_serif;
+	src: url(../assets/fonts/janda_curlygirl/JandaCurlygirlSerif.ttf);
+}
+
+@font-face {
+	font-family: marline;
+	src: url(../assets/fonts/marline/Marline_free.otf);
+}
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
+p {
+	font-family: janda_curlygirl_serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: janda_curlygirl_serif;
+}
+
+/* NAVIGATION MENU
+*/
+
+/* CSS rules to overwrite the position of the Bootstrap menu. These are derived from the
+Bootstrapbay Bootstrap Tutorial Part 11 — CSS Modifications to Navbar and Buttons shows how to do this using Bootstrap 3, the principle should be the same: https://www.youtube.com/watch?v=7v2yC3GyDHU  
+
+There is plenty more styling to do than indicated here, in mobile it still defaults to Bootstrap CSS on dropdown!
+*/
+
+.navbar_pastel_kitchen .navbar-nav > li > a {
+   color: white;  
+}
+
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_pastel_kitchen .navbar-nav > li > a:hover, 
+.navbar_pastel_kitchen .navbar-nav > li > a:focus {
+   color: #df244a;  
+}
+
+.navbar_pastel_kitchen .navbar-nav .nav-item {
+   margin-top: 0px;
+}
+
+/* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour
+*/
+.navbar_pastel_kitchen .navbar-nav .nav-item > .active, 
+.navbar_pastel_kitchen .navbar-nav > .active > a:hover, 
+.navbar_pastel_kitchen .navbar-nav > .active > a:focus {
+   color:  #760003; /* Font color for active font */
+   background-color: #3399ff; /* Blue color for background */
+}
+
+/* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus
+*/
+   
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_pastel_kitchen .navbar-nav > li > a:hover, 
+.navbar_pastel_kitchen  .navbar-nav > li > a:focus {
+   color: #df244a;  
+}
+
+.navbar_footer .navbar-nav > li > a {
+   color: white;  
+}
+
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_footer .navbar-nav > li > a:hover, 
+.navbar_footer .navbar-nav > li > a:focus {
+   color: #df244a;  
+}
+
+.navbar_footer .navbar-nav .nav-item {
+   margin-top: 0px;
+}
+
+/* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour
+*/
+.navbar_footer .navbar-nav .nav-item > .active, 
+.navbar_footer .navbar-nav > .active > a:hover, 
+.navbar_footer .navbar-nav > .active > a:focus {
+   color:  #760003; /* Font color for active font */
+   background-color: #3399ff; /* Blue color for background */
+}
+
+/* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus
+*/
+   
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_footer .navbar-nav > li > a:hover, 
+.navbar_footer  .navbar-nav > li > a:focus {
+   color: #df244a;  
+}
+/* Let's style the dropdown menu
+*/
+
+.dropdown-menu {
+   text-align: -webkit-left;
+   background-color: #f7ddde;
+   margin-top: 20px; /* Experiment to move the dropdown menu down */
+}
+
+.dropdown-menu .dropdown-item {
+   color: #fe708d;
+}
+
+.dropdown-menu .dropdown-item:hover {
+   color: #fff;
+   background-color: #e98074;
+}
+
+
+.navbar-text > a {
+   font-size: 10px;
+}
+
+.navbar-text > p {
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   text-decoration: none;
+}
+
+
+
+.img-thumbnail {
+   padding: 0.25rem;
+   margin-top: 5px;
+   background-color: #fff;
+   border: 1px solid #dee2e6;
+   border-radius: 0.25rem;
+   max-width: 100%;
+   height: auto;
+}
+
+/* Lifted form the bootsrap.css file, and modified to emulate the nav-bar menu styling */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+   color:  #464646; /* Font color for active font */
+   background-color: #3399ff; /* Blue color for background */
+   border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+   color: white;  
+   border: 1px solid transparent;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+}
+
+/* Added this to emulate the nav-bar link styling */
+.nav-tabs .nav-link:hover {
+   color: #fff;
+   border: 1px solid transparent;
+}
+
+.gallery-header {
+   color: white;
+}
+
+.gallery-header:hover {
+   color: green;
+   border: 1px solid transparent;
+}
+
+.model3D  {
+   background-color: rgba(255, 255, 255, 0.2); 
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 1.0);
+   padding: 2px;
+   height: 200px;
+}
+
+X3D, x3d {
+   border-radius: 5px;
+   border: 1px solid rgba(255, 0, 0, 1.0);
+   width: 100%;
+   height: 100%
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) { ... }
